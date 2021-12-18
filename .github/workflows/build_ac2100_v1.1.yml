@@ -10,6 +10,7 @@
 name: build_ac2100_v1.1
 
 on:
+  workflow_dispatch:
   #push:
   #  branches: 
   #    - master
