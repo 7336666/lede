@@ -66,7 +66,7 @@ jobs:
       - name: Generate configuration file
         run: |
           rm -f ./.config*
-          curl -fsSL https://raw.githubusercontent.com/7336666/lede/master/myconfig/mt7621/.config >./.config
+          curl -fsSL https://raw.githubusercontent.com/7336666/lede/master/myconfig/mt7621/ac2100_v1.0.config >./.config
           
           make defconfig
 
